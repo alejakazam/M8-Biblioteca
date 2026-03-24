@@ -1,28 +1,78 @@
-Sistema de préstamo de libros para bibliotecas con Django
-Aplicación web desarrollada con Django para gestionar el préstamo de libros en una biblioteca o institución. Permite administrar libros, usuarios y préstamos de manera eficiente mediante operaciones CRUD.
+# Sistema de Préstamo de Libros con Django
 
-Tecnologias utilizadas:
-Python 
-Django 
-HTML5 + CSS3
-Bootstrap 5
-SQLite 
+Aplicación web desarrollada con Django para gestionar el préstamo de libros en una biblioteca o institución.
+Permite administrar libros, usuarios y préstamos de manera eficiente mediante operaciones CRUD.
 
+---
 
-Instalación ->> Clonar repositorio:
+## I. Tecnologías utilizadas
+
+* Python
+* Django
+* HTML5 y CSS3
+* Bootstrap 5
+* SQLite
+
+---
+
+## II. Instalación y configuración
+
+### a. Clonar repositorio
+
+```bash id="9v3o1b"
 git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo
-Crear entorno virtual:
+```
+
+### b. Crear entorno virtual
+
+```bash id="n4o8sd"
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-Instalar dependencias:
+```
+
+Activar entorno:
+
+```bash id="k9w2xm"
+# Linux / Mac
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+```
+
+### c. Instalar dependencias
+
+```bash id="q2m7pl"
 pip install -r requirements.txt
-Aplicar migraciones:
+```
+
+### d. Aplicar migraciones
+
+```bash id="z8d1fa"
 python manage.py migrate
-Ejecutar servidor:
+```
+
+### e. Ejecutar servidor
+
+```bash id="c7r5yn"
 python manage.py runserver
+```
 
+---
 
-Proyecto de uso educativo 
-Desarrollado por Alejandra Duarte para Talento Digital
+## III. Descripción del sistema
+
+El sistema permite:
+
+* Registrar libros disponibles
+* Gestionar usuarios
+* Controlar préstamos y devoluciones
+* Realizar operaciones CRUD completas
+
+---
+
+## IV. Información adicional
+
+Proyecto de uso educativo.
+Desarrollado por Alejandra Duarte para Talento Digital.
+
